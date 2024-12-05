@@ -31,6 +31,20 @@ img {
     background: #1F2937;
 }
 
+.section-2 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    background: #E5E7EB;
+    padding: 50px;
+}
+
 .text {
     display: flex;
     flex-direction: column;
@@ -71,4 +85,52 @@ button {
   background: #3882F6;
   color: #F9FAF8;
   padding: 8px 30px;
+}
+
+.info-header-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.info {
+    max-width: 200px;
+}
+#box-1 {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 150px;
+}
+#box-2 {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 150px;
+}
+#box-3 {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 150px;
+}
+#box-4 {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 150px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 15px;
+}
+figcaption{
+    font-size: 18px;
+    text-align: end;
 }
